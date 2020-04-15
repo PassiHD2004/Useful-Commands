@@ -1,0 +1,25 @@
+Team_message: '&eDu willst dem Team joinen? Bewirb dich jetzt bei uns, via Minecraft Chat, oder E-Mail.'
+# Leg die Nachricht fest, die der Spieler erhält.
+
+TeamSpeak_message: '&bUnser TeamSpeak Server: Server.de'
+# Leg die Nachricht fest, die der Spieler erhält.
+
+Discord_message: '&aUnser Discord: DeinDiscord'
+# Leg die Nachricht fest, die der Spieler erhält.
+
+no_perm: '&cDu bist nicht berechtigt diesen Befehl auszuführen'
+# Leg die Nachricht fest, die ein Spieler ohne Berechtigung erhält
+
+no_console: '&cNur Spieler können diesen Befehl ausführen'
+# Leg die Nachricht fest, die in der Konsole erscheint, beim ausführen des Befehls in der Konsole
+
+# Farbcodes kann man mit '&' verwenden.
+
+team_permission: 'team.use'
+# Leg die benötigte Berechtigung für /team fest.
+
+teamspeak_permission: 'teamspeak.use'
+# Leg die benötigte Berechtigung für /teamspeak fest.
+
+discord_permission: 'dc.use'
+# Leg die benötigte Berechtigung für /discord fest.

@@ -1,0 +1,12 @@
+name: Useful-Commands
+version: 1.0
+author: Phoenix_PassiHD
+main: de.phoenixts.phoenix.Main
+
+commands:
+  team:
+    aliases: [staff]
+  teamspeak:
+    aliases: [ts]
+  discord:
+    aliases: [dc]
