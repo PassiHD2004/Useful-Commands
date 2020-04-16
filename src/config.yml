@@ -1,3 +1,18 @@
+## Keine Berechtigung/Nur Spieler
+
+no_perm: '&cDu bist nicht berechtigt diesen Befehl auszuführen'
+# Leg die Nachricht fest, die ein Spieler ohne Berechtigung erhält.
+
+fly_noperm: '&7&l[&c&l&7&l] &6&lDu bist nicht berechtigt diesen Befehl auszuführen'
+# Leg die Nachricht fest, die ein Spieler ohne Berechtigung für /gfly erhält.
+
+no_console: '&cNur Spieler können diesen Befehl ausführen'
+# Leg die Nachricht fest, die in der Konsole erscheint, beim ausführen des Befehls in der Konsole.
+
+
+## Nachrichten
+# Farbcodes kann man mit '&' verwenden.
+
 Team_message: '&eDu willst dem Team joinen? Bewirb dich jetzt bei uns, via Minecraft Chat, oder E-Mail.'
 # Leg die Nachricht fest, die der Spieler erhält.
 
@@ -7,13 +22,30 @@ TeamSpeak_message: '&bUnser TeamSpeak Server: Server.de'
 Discord_message: '&aUnser Discord: DeinDiscord'
 # Leg die Nachricht fest, die der Spieler erhält.
 
-no_perm: '&cDu bist nicht berechtigt diesen Befehl auszuführen'
-# Leg die Nachricht fest, die ein Spieler ohne Berechtigung erhält
+Bier_Message: '&cNich so viel trinken...'
+# Nich so viel trinken...
 
-no_console: '&cNur Spieler können diesen Befehl ausführen'
-# Leg die Nachricht fest, die in der Konsole erscheint, beim ausführen des Befehls in der Konsole
+Fly_enabled: '&7&l[&a&l*&7&l] &6&lFliegen aktiviert'
+# Leg die Nachricht fest, die der Spieler erhält, wenn /gfly aktiviert wurde.
 
+Fly_disabled: '&7&l[&a&l*&7&l] &6&lFliegen deaktiviert'
+# Leg die Nachricht fest, die der Spieler erhält, wenn /gfly deaktiviert wurde. 
+
+
+## Join/Quit Nachrichten
 # Farbcodes kann man mit '&' verwenden.
+
+First_JoinMessage: '&a&l<player> &b&list dem Server das erste Mal beigetreten.'
+# Lege die Nachricht fest, die eim erstmaligen Joinen eines Spielers erscheint.
+
+JoinMessage: '&e&l<player> &6&list dem Server beigetreten.'
+# Lege die Nachricht fest, die erscheint, wenn ein Spieler joint.
+
+QuitMessage: '&2&l<player> &f&list offline gegangen.'
+# Lege die Nachricht fest, die erscheint, wenn ein Spieler den Server verlässt.
+
+
+##Berechtigungen
 
 team_permission: 'team.use'
 # Leg die benötigte Berechtigung für /team fest.
@@ -27,14 +59,5 @@ discord_permission: 'dc.use'
 bier_permission: 'bier.use'
 # Leg die benötigte Berechtigung für /bier fest.
 
-First_JoinMessage: '&a&l<player> &b&list dem Server das erste Mal beigetreten.'
-# Lege die Nachricht fest, die eim erstmaligen Joinen eines Spielers erscheint.
-
-JoinMessage: '&e&l<player> &6&list dem Server beigetreten.'
-# Lege die Nachricht fest, die erscheint, wenn ein Spieler joint.
-
-QuitMessage: '&2&l<player> &f&list offline gegangen.'
-# Lege die Nachricht fest, die erscheint, wenn ein Spieler den Server verlässt.
-
-Bier_Message: '&cNich so viel trinken...'
-# Nich so viel trinken...
+fly_perm: 'fly.use'
+# Leg die benötigte Berechtigung für /gfly fest.

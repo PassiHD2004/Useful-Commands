@@ -15,6 +15,7 @@ public class Main extends JavaPlugin {
 		new JoinListener(this);
 		new QuitListener(this);
 		new BierCMD(this);
+		new FlyCMD(this);
 		saveDefaultConfig();
 
 	}
