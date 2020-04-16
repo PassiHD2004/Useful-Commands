@@ -23,3 +23,18 @@ teamspeak_permission: 'teamspeak.use'
 
 discord_permission: 'dc.use'
 # Leg die benötigte Berechtigung für /discord fest.
+
+bier_permission: 'bier.use'
+# Leg die benötigte Berechtigung für /bier fest.
+
+First_JoinMessage: '&a&l<player> &b&list dem Server das erste Mal beigetreten.'
+# Lege die Nachricht fest, die eim erstmaligen Joinen eines Spielers erscheint.
+
+JoinMessage: '&e&l<player> &6&list dem Server beigetreten.'
+# Lege die Nachricht fest, die erscheint, wenn ein Spieler joint.
+
+QuitMessage: '&2&l<player> &f&list offline gegangen.'
+# Lege die Nachricht fest, die erscheint, wenn ein Spieler den Server verlässt.
+
+Bier_Message: '&cNich so viel trinken...'
+# Nich so viel trinken...

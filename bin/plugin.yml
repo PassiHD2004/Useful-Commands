@@ -1,5 +1,5 @@
 name: Useful-Commands
-version: 1.0
+version: 1.1
 author: Phoenix_PassiHD
 main: de.phoenixts.phoenix.Main
 
@@ -10,3 +10,5 @@ commands:
     aliases: [ts]
   discord:
     aliases: [dc]
+  bier:
+    aliases: [saufen]
