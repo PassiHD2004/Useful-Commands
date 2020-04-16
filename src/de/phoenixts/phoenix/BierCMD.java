@@ -27,8 +27,9 @@ public class BierCMD implements CommandExecutor {
 		Player p = (Player) sender;
 
 		if (p.hasPermission(plugin.getConfig().getString("bier_permission"))) {
-			p.sendMessage(Utils.chat(plugin.getConfig().getString("Bier_message")));
-			Bukkit.getServer().dispatchCommand(Bukkit.getConsoleSender(), ("effect <player> nausea 60 150").replace("<player>", p.getName()));
+			Bukkit.getServer().dispatchCommand(Bukkit.getServer().getConsoleSender(),
+					("effect <player> nausea 60 150").replace("<player>", p.getDisplayName()));
+			p.sendMessage(Utils.chat(plugin.getConfig().getString("Bier_Message")));
 			return true;
 		} else {
 			p.sendMessage(Utils.chat(plugin.getConfig().getString("no_perm")));
