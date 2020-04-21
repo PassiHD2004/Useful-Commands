@@ -1,5 +1,5 @@
 name: Useful-Commands
-version: 1.4
+version: 1.6
 author: Phoenix_PassiHD
 main: de.phoenixts.phoenix.Main
 
@@ -12,5 +12,7 @@ commands:
     aliases: [dc]
   bier:
     aliases: [saufen]
-  gfly:
-    aliases: [fly]
+  fly:
+    aliases: [Fliegen]
+  feed:
+    aliases: [Futter]

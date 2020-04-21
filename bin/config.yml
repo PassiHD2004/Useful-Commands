@@ -3,7 +3,7 @@
 no_perm: '&cDu bist nicht berechtigt diesen Befehl auszuführen'
 # Leg die Nachricht fest, die ein Spieler ohne Berechtigung erhält.
 
-fly_noperm: '&7&l[&c&l&7&l] &6&lDu bist nicht berechtigt diesen Befehl auszuführen'
+fly_noperm: '&7&l[&c&l*&7&l] &6&lDu bist nicht berechtigt diesen Befehl auszuführen'
 # Leg die Nachricht fest, die ein Spieler ohne Berechtigung für /gfly erhält.
 
 no_console: '&cNur Spieler können diesen Befehl ausführen'
@@ -25,11 +25,17 @@ Discord_message: '&aUnser Discord: DeinDiscord'
 Bier_Message: '&cNich so viel trinken...'
 # Nich so viel trinken...
 
-Fly_enabled: '&7&l[&a&l*&7&l] &6&lFliegen aktiviert'
+fly_enabled: '&7&l[&a&l*&7&l] &6&lFliegen aktiviert'
 # Leg die Nachricht fest, die der Spieler erhält, wenn /gfly aktiviert wurde.
 
-Fly_disabled: '&7&l[&a&l*&7&l] &6&lFliegen deaktiviert'
+fly_disabled: '&7&l[&a&l*&7&l] &6&lFliegen deaktiviert'
 # Leg die Nachricht fest, die der Spieler erhält, wenn /gfly deaktiviert wurde. 
+
+feed_filled: '&7&l[&a&l*&7&l] &6&lDu wurdest mit Essen vollgestopft'
+# Leg die Nachricht fest, die der Spieler erhält, wenn er mit Essen vollgestopft wurde.
+
+feed_full: '&7&l[&c&l*&7&l] &6&lSorry, aber du hattest deine Portion schon, xD'
+# Leg die Nachricht fest, die der Spieler erhält, wenn er seine Portion schon hatte...
 
 
 ## Join/Quit Nachrichten
@@ -61,3 +67,6 @@ bier_permission: 'bier.use'
 
 fly_perm: 'fly.use'
 # Leg die benötigte Berechtigung für /gfly fest.
+
+feed_perm: 'feed.use'
+# Leg die benötigte Berechtigung für /feed fest.

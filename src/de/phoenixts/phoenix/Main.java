@@ -16,8 +16,8 @@ public class Main extends JavaPlugin {
 		new QuitListener(this);
 		new BierCMD(this);
 		new FlyCMD(this);
+		new FeedCMD(this);
 		saveDefaultConfig();
-
 	}
 
 }
