@@ -1,0 +1,23 @@
+name: Useful-Commands
+version: 2.1
+author: Phoenix_PassiHD
+main: de.phoenixts.phoenix.Main
+
+commands:
+  team:
+    aliases: [staff]
+  teamspeak:
+    aliases: [ts]
+  discord:
+    aliases: [dc]
+  bier:
+    aliases: [saufen]
+  fly:
+    aliases: [Fliegen]
+  feed:
+    aliases: [Futter]
+  abend:
+    aliases: [evening]
+  heal:
+    aliases: [heilen]
+  crash:

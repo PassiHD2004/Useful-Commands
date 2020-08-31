@@ -1,0 +1,89 @@
+## Keine Berechtigung/Nur Spieler
+
+no_perm: '&cDu bist nicht berechtigt diesen Befehl auszuführen'
+# Leg die Nachricht fest, die ein Spieler ohne Berechtigung erhält.
+
+fly_noperm: '&7&l[&c&l*&7&l] &6&lDu bist nicht berechtigt diesen Befehl auszuführen'
+# Leg die Nachricht fest, die ein Spieler ohne Berechtigung für /gfly erhält.
+
+no_console: '&cNur Spieler können diesen Befehl ausführen'
+# Leg die Nachricht fest, die in der Konsole erscheint, beim ausführen des Befehls in der Konsole.
+
+
+## Nachrichten
+# Farbcodes kann man mit '&' verwenden.
+
+Team_message: '&eDu willst dem Team joinen? Bewirb dich jetzt bei uns, via Minecraft Chat, oder E-Mail.'
+# Leg die Nachricht fest, die der Spieler erhält.
+
+TeamSpeak_message: '&bUnser TeamSpeak Server: Server.de'
+# Leg die Nachricht fest, die der Spieler erhält.
+
+Discord_message: '&aUnser Discord: DeinDiscord'
+# Leg die Nachricht fest, die der Spieler erhält.
+
+Bier_Message: '&cNich so viel trinken...'
+# Nich so viel trinken...
+
+Abend_Message: '&7&l[&a&l*&7&l] &6&lEs ist nun Abend.'
+# Leg die Nachricht fest, die erscheint, wenn es Abend gemacht wurde.
+
+fly_enabled: '&7&l[&a&l*&7&l] &6&lFliegen aktiviert'
+# Leg die Nachricht fest, die der Spieler erhält, wenn /gfly aktiviert wurde.
+
+fly_disabled: '&7&l[&a&l*&7&l] &6&lFliegen deaktiviert'
+# Leg die Nachricht fest, die der Spieler erhält, wenn /gfly deaktiviert wurde. 
+
+feed_filled: '&7&l[&a&l*&7&l] &6&lDu wurdest mit Essen vollgestopft'
+# Leg die Nachricht fest, die der Spieler erhält, wenn er mit Essen vollgestopft wurde.
+
+feed_full: '&7&l[&c&l*&7&l] &6&lSorry, aber du hattest deine Portion schon, xD'
+# Leg die Nachricht fest, die der Spieler erhält, wenn er seine Portion schon hatte...
+
+Heal_msg: '&7&l[&a&l*&7&l] &6&lDu wurdest geheilt'
+# Leg die Nachricht fest, die der Spieler erh�lt, wenn er geheilt wird.
+
+Heal_fail_msg: '&7&l[&c&l*&7&l] &c&lDu musst im Survival Modus sein.'
+#  Leg die Nachricht fest, die der Spieler erh�lt, wenn er nicht im �berleben ist.
+
+Heal_other_msg: '&7&l[&a&l*&7&l] &6&l Du hast &e<player> &6&lerfolgreich geheilt.'
+
+
+## Join/Quit Nachrichten
+# Farbcodes kann man mit '&' verwenden.
+
+First_JoinMessage: '&a&l<player> &b&list dem Server das erste Mal beigetreten.'
+# Lege die Nachricht fest, die eim erstmaligen Joinen eines Spielers erscheint.
+
+JoinMessage: '&e&l<player> &6&list dem Server beigetreten.'
+# Lege die Nachricht fest, die erscheint, wenn ein Spieler joint.
+
+QuitMessage: '&2&l<player> &f&list offline gegangen.'
+# Lege die Nachricht fest, die erscheint, wenn ein Spieler den Server verlässt.
+
+
+##Berechtigungen
+
+team_permission: 'team.use'
+# Leg die benötigte Berechtigung für /team fest.
+
+teamspeak_permission: 'teamspeak.use'
+# Leg die benötigte Berechtigung für /teamspeak fest.
+
+discord_permission: 'dc.use'
+# Leg die benötigte Berechtigung für /discord fest.
+
+bier_permission: 'bier.use'
+# Leg die benötigte Berechtigung für /bier fest.
+
+fly_perm: 'fly.use'
+# Leg die benötigte Berechtigung für /gfly fest.
+
+feed_perm: 'feed.use'
+# Leg die benötigte Berechtigung für /feed fest.
+
+abend_perm: 'abend.use'
+# Leg die ben�tigte Berechtigung f�r /abend fest.
+
+heal_perm: 'heal.use'
+# Leg die ben�tigte Berechtigung f�r /heal fest.
